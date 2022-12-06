@@ -1,0 +1,832 @@
+@font-face {
+    font-family:"TTCommons-Thin" ;
+    src: url(font/TTCommons-Thin.ttf);
+}
+@font-face {
+    font-family:"TTCommons-Medium" ;
+    src: url(font/TTCommons-Medium.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: "TTCommons-Thin";
+}
+.content{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*---header start---*/
+
+header .info {
+    background: #252528;    
+
+    color: white;
+}
+header .info .content {
+    display: flex;
+    justify-content: space-between;
+}
+header .info .content p {
+    display: flex;
+    align-items: center;
+    height: 34px; 
+}
+
+header .info span{
+    font-size: 17px;
+    color: #F9A32F;
+}
+header .main .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+header .main{
+    margin-top: 22px;
+   
+    border-radius: 1px;
+}
+header .main .phone{
+    border: 1px #2A3EA4 solid;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 202px;
+    background: none;
+    gap: 15px;
+    border-radius: 5px;
+}
+header .main .phone p{
+    font-size: 17px;
+    color: #2A3EA4;
+}
+header .main .phone .call{
+    background: url(img/Vector.png);
+    background-size: cover;
+    height: 18px;
+    width: 18px;
+    margin-left: 10px;
+}
+header .main .logo{
+    width: 186PX;
+    display: flex;
+    align-items: center;
+}
+header .main .logo p{
+    font-size: 27px;
+    font-family: "TTCommons-Medium";
+    font-weight: bold;
+}
+header .main .logo .logoimage{
+    background: url(img/Group\ 1.png);
+    background-size: cover;
+    height: 36px;
+    width: 38px;
+    margin-left: -21px;
+    margin-right: 17px;
+}
+header .main .number .number2{
+    font-family: "TTCommons-Medium";
+    font-size: 26px;
+}
+header .main .number p{
+    font-weight: bold;
+    font-size: 16px;
+}
+header .navigate .content{
+    margin-top: 43px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+header .navigate nav ul{
+    display: flex;
+    align-items: center;
+   /* border: 1px rgba(237, 232, 232, 1) solid ;*/
+    gap: 135px;
+    font-size: 17px;
+    margin-top: 2px;
+    list-style-type: none;
+}
+header .navigate nav ul li a{
+    text-decoration: none;
+    color: #9799A3;
+}
+header .navigate .search {
+    background: url("img/Union.png");
+    width: 22px;
+    height: 22px;
+}
+header .cover {
+    display: flex;
+}
+header .cover .content {
+    display: flex;
+    margin-bottom: 64px;
+}
+header .cover .text {
+    width: 415px;
+}
+header .cover .text h3{
+    font-size: 36px;
+    color: #000000;
+    font-family: "TTCommons-Medium";
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+header .cover .text .numberclient{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+header .cover .text .numberclient input{
+    border: 1px rgba(192, 190, 190, 1) solid ;
+    width: 240px;
+    padding-bottom: 50px;
+}
+header .cover .text .numberclient .send{
+    background: url(img/Vector\ \(1\).png);
+    background-size: cover;
+    height: 19px;
+    width: 19px;
+}
+header .cover .text .numberclient .orange{
+    background: #F67F3F;
+    padding: 24px;
+}
+header .cover .text p{
+    font-size: 17px;
+    color: #7E858B;
+    width: 295px;
+}
+header .cover .maingenerate{
+    background: url(img/Group\ 6.png);
+    background-size: cover;
+    width: 627px;
+    height: 408px;
+    margin-top: 60px;
+}
+header .cover .blue{
+    background: #2A3EA4;
+    width: 757px;
+    height: 558px;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+}
+/*---header end---*/
+
+/*---main start---*/
+main h2{
+    margin-top: 90px;
+    font-family: "TTCommons-Medium";
+    font-size: 28px;
+}
+main .content .osnova{
+    display: flex;
+    gap: 20px;
+}
+main .content .osnova .filter .power{
+    display: block;
+}
+main  .content .osnova .filter .power .checkb{
+    margin-bottom: 8px;
+    margin-left: 15px;
+} 
+main  .content .osnova .filter .power span{
+    margin-left: 15px;
+}
+main  .content .osnova .filter .power span a{
+    text-decoration: none;
+    color: #606999;
+}
+main  .content .osnova .filter .znachok{
+    background: #F0F1F6;
+    font-size: 18px;
+    color: #606999;
+    margin-bottom: 3px;
+    width: 270px;
+    height: 51px;
+}
+main  .content .osnova .filter .znachok{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main  .content .osnova .filter .power .znach{
+    background: url(img/Vector2.png);
+    background-size: cover;
+    height: 6px;
+    width: 8px;
+    
+}
+main  .content .osnova .filter .znach1{
+    background: url(img/Vector\ \(1\)2.png);
+    background-size: cover;
+    height: 6px;
+    width: 8px;
+}
+main .content .osnova .filter .sertif{
+    text-align: center;
+    width: 270px;
+    border: 1px solid #E0E0E0;
+    padding: 10px 0 10px 0;
+}
+main .content .osnova .filter .sertif h4{
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    font-family: "TTCommons-Medium";
+}
+main .content .osnova .filter .sertif p{
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+main .content .osnova .filter .sertif .sertifimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .content .osnova .filter .sertif .sertifimg .znach_left{
+    background: url(img/Vector6.png);
+    background-size: cover;
+    height: 20px;
+    width: 15px;
+}
+main .content .osnova .filter .sertif .sertifimg .znach_right{
+    background: url(img/Vector-1.png);
+    background-size: cover;
+    height: 20px;
+    width: 15px;
+}
+main .content .osnova .filter .sertif .sertifimg .sertificat{
+    background: url(img/image\ 10.png);
+    background-size: cover;
+    width: 170px;
+    height: 242px;
+}
+main .content .kVt button{
+    background: none;
+    border: 1px solid rgba(42, 62, 164, 0.3);
+    width: 68px;
+    padding: 6px;
+    color: #2A3EA4;
+    font-size: 13px;
+}
+main .content .catalog{
+    display: grid;
+    gap: 20px;
+    text-align: center;
+
+  /* ! */
+    grid-template-areas:
+    "A B C"
+    "D E F"
+    "G H I"
+    "J K L";
+}
+main .content .catalog .box1{
+    grid-area: A;
+    width: 270px;
+}
+main .content .catalog .box2{
+    grid-area: B;
+    width: 270px;
+}
+main .content .catalog .box3{
+    grid-area: C;
+    width: 270px;
+}
+main .content .catalog .box4{
+    grid-area: D;
+    width: 270px;
+}
+main .content .catalog .box5{
+    grid-area: E;
+    width: 270px;
+}
+main .content .catalog .box6{
+    grid-area: F;
+    width: 270px;
+}
+main .content .catalog .box7{
+    grid-area: G;
+    width: 270px;
+}
+main .content .catalog .box8{
+    grid-area: H;
+    width: 270px;
+}
+main .content .catalog .box9{
+    grid-area: I;
+    width: 270px;
+}
+main .content .catalog .box10{
+    grid-area: J;
+    width: 270px;
+}
+main .content .catalog .box11{
+    grid-area: K;
+    width: 270px;
+}
+main .content .catalog .box12{
+    grid-area: L;
+    width: 270px;
+}
+main .content .catalog .generate1{
+    background: url(img/gen1.png);
+    background-size: cover;
+    width: 270px;
+    height: 187px;
+}
+main .content .catalog .generate2{
+    background: url(img/gen2.png);
+    background-size: cover;
+    width: 270px;
+    height: 187px;
+}
+main .content .catalog .generate3{
+    background: url(img/gen3.png);
+    background-size: cover;
+    width: 270px;
+    height: 187px;
+}
+main .content .catalog button{
+    padding: 10px;
+    background: none;
+    border: 1px #F67F3F solid;
+    color: #F67F3F;
+    border-radius: 5px;
+}
+main .content .catalog span{
+    color: #60B859;
+    font-size: 14px;
+    background: #E0F0DE;
+    padding: 2px;
+    border-radius: 10px;
+}
+main .content .catalog .pokaz, main .b7 .content .forma .pokaz{
+    background: #2A3EA4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+main .content .block4z{
+    margin-top: 131px;
+    margin-bottom: 114px;
+}
+main .content .block4z h1{
+    font-family: "TTCommons-Medium";
+    text-align: center;
+    margin-bottom: 75px;
+}
+main .content .block4z .blocks{
+    display: grid;
+    gap: 20px;
+    /* align-items: center; */
+  /* ! */
+    grid-template-areas:
+    "O P Q"
+    "N M Z";
+}
+main .content .block4z .blocks .one:nth-child(1) {
+    grid-area: P;
+}
+main .content .block4z .blocks .one:nth-child(2) {
+    grid-area: O;
+}
+main .content .block4z .blocks .one:nth-child(3) {
+    grid-area: Q;
+}
+main .content .block4z .blocks .one:nth-child(4) {
+    grid-area: N;
+}
+main .content .block4z .blocks .one:nth-child(5) {
+    grid-area: M;
+}
+main .content .block4z .blocks .one:nth-child(6) {
+    grid-area: Z;
+}
+main .content .block4z .blocks .one{
+    border: 1px solid #D6D8E2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+} 
+main .content .block4z .blocks .one p { 
+    margin-left: 43px ;
+}
+main .content .block4z .blocks .img1{
+    background: url(img/Mask\ Group.png);
+    background-size:cover ;
+    width: 97px;
+    height: 90px;
+}
+main .content .block4z .blocks .img { 
+    width: 97px;
+    height: 90px;
+}
+
+main .content .block4z .blocks .img2{
+    background: url(img/Mask\ Group\ \(2\).png);
+    background-size:cover ;
+}
+main .content .block4z .blocks  .img3{
+    background: url(img/Mask\ Group\ \(4\).png);
+    background-size:cover ;
+}
+main .content .block4z .blocks .img4{
+    background: url(img/Mask\ Group\ \(1\).png);
+    background-size:cover ;
+}
+main .content .block4z .blocks .img5{
+    background: url(img/Mask\ Group\ \(3\).png);
+    background-size:cover ;
+}
+main .content .block4z .blocks .img6{
+    background: url(img/Mask\ Group\ \(5\).png);
+    background-size:cover ;
+}
+
+main .block5z{
+    background: url(img/image\ 9.png);
+    background-size: cover;
+    height: 636px;
+    width: 1920px;
+    color: #606999;
+    font-size: 20px;
+    padding-top: 85px;
+    
+}
+main .block5z h1{
+    text-align: center;
+    font-size: 32px;
+    color: #2B2F47;
+    font-family: "TTCommons-Medium";
+    margin-bottom: 102px;
+}
+main .block5z .blocks2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 990px;
+    gap: 102px;
+}
+main .block5z .blocks2 .block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8{
+    width: 170px;
+}
+main .block5z .blocks2 .block1 .img7{
+    background: url(img/Group\ 282.png);
+    background-size: cover;
+    width: 74px;
+    height: 89px;
+}
+main .block5z .blocks2 .block2 .img8{
+    background: url(img/Group\ 283.png);
+    background-size: cover;
+    width: 74px;
+    height: 89px;
+}
+main .block5z .blocks2 .block3 .img9{
+    background: url(img/Group\ 284.png);
+    background-size: cover;
+    width: 74px;
+    height: 89px;
+}
+main .block5z .blocks2 .block4 .img10{
+    background: url(img/Group\ 285.png);
+    background-size: cover;
+    width: 74px;
+    height: 89px;
+}
+main .block5z .blocks2 .block5 .img11{
+    background: url(img/Group\ 286.png);
+    background-size: cover;
+    width: 74px;
+    height: 89px;
+}
+main .block5z .blocks2 .block6 .img12{
+    background: url(img/Group\ 287.png);
+    background-size: cover;
+    width: 74px;
+    height: 89px;
+}
+main .block5z .blocks2 .block7 .img13{
+    background: url(img/Group\ 288.png);
+    background-size: cover;
+    width: 74px;
+    height: 89px;
+}
+main .block5z .blocks2 .block8 .img14{
+    background: url(img/Group\ 289.png);
+    background-size: cover;
+    width: 74px;
+    height: 89px;
+}
+main .content .b6{
+    display: flex;
+    font-size: 20px;
+    color: #5E6368;
+    margin-top: 97px;
+    margin-bottom: 102px;
+}
+main .content .text{
+    width: 915px;
+}
+main .content .text h4{
+    font-family: "TTCommons-Medium";
+    font-size: 28px;
+    color: #2B2F47;
+}
+main .content .b6 .image{
+    background: url(img/Mask\ Group\ \(6\).png);
+    background-size: cover;
+    width: 270px;
+    height: 432px;
+}
+main .content .b6 .text h4{
+    margin-top: 20px;
+}
+main .content .b6 .text li{
+    list-style-type:square;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+main .content .b6 .text p{
+    margin-bottom: 20px;
+}
+main .b7{
+    background: url(img/Group\ 290.png);
+    background-size: cover;
+    width: 1920px;
+    height: 639px;
+}
+main .b7 .content h3{
+    color: #000000;
+    font-family: "TTCommons-Medium";
+    font-size: 28px;
+    padding-top: 82px;
+    text-transform: uppercase;
+}
+main .b7 .content .forma{
+    display: flex;
+    gap: 210px;
+    padding-top: 67px;
+}
+main .b7 .content .forma .form{
+    display: block;
+}
+main .b7 .content .forma .form textarea{
+    margin-bottom: 37px;
+    width: 686px;
+}
+main .b7 .content .forma .form .check{
+    margin-bottom: 44px;
+}
+main .b7 .content .forma .flex{
+    margin-bottom: 23px;
+    margin-right: 20px;
+}
+main .b7 .content .forma .flex input{
+    width: 320px;
+    padding: 10px;
+}
+main .b7 .content .forma button{
+    padding: 20px;
+    width: 350px;
+}
+main .b7 .content .forma .numberphone span{
+    font-size: 30px;
+    color: #000000;
+    font-family: "TTCommons-Medium";
+}
+main .b7 .content .forma .numberphone p{
+    font-size: 17px;
+    text-align: right;
+    color: #9D9EA7;
+}
+main .b8{
+    margin-top: 95px;
+}
+main .b8 h3{
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2B2F47;
+    font-family: "TTCommons-Medium";
+    margin-bottom: 104px;
+}
+main .b8 .brends{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 136px;
+    
+}
+main .b8 .brends .kohel{
+    background: url(img/image\ 16.png);
+    width: 129px;
+    height: 27px;
+}
+main .b8 .brends .denyo{
+    background: url(img/image\ 17.png);
+    width: 132px;
+    height: 32px;
+}
+main .b8 .brends .gmgen{
+    background: url(img/image\ 18.png);
+    width: 123px;
+    height: 46px;
+}
+main .b8 .brends .mosa{
+    background: url(img/image\ 19.png);
+    width: 120px;
+    height: 33px;
+}
+main .b8 .brends .wilson{
+    background: url(img/image\ 20.png);
+    width: 91px;
+    height: 53px;
+}
+main .b9{
+    margin-bottom: 61px;
+}
+main .b9 h2{
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "TTCommons-Medium";
+    color: #2B2F47;
+}
+main .b9 .howjob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: "TTCommons-Medium";
+}
+main .b9 .howjob .job{
+    text-align: center;
+    width: 190px;
+}
+main .b9 .howjob .job1, .job2,.job3,.job4{ 
+    width: 182px;
+    height: 189px;
+    margin-bottom: 27px;
+}
+main .b9 .howjob .job span{
+    font-size: 18px;
+    color: #2A3EA4;
+    
+}
+main .b9 .howjob .job p{
+    font-size: 15px;
+    color: #4C4D4F;
+    margin-top: 27px;
+}
+main .b9 .howjob .job1{
+    background: url(img/Generate.png);
+}
+main .b9 .howjob .job2{
+    background: url(img/Stroitel.png);
+}
+main .b9 .howjob .job3{
+    background: url(img/Pisar.png);
+}
+main .b9 .howjob .job4{
+    background: url(img/ishoodin.png);
+}
+main .b9 .howjob .arrow{
+    background: url(img/arrow.png);
+    height: 13px;
+    width: 26px;
+}
+main .b10{
+    background: url(img/Rectangle\ 58.png);
+    width: 1920px;
+    height: 827px;
+    padding-top: 20px;
+}
+main .b10 .backg1{
+    background: url(img/кружки.png);
+    width: 630.25px;
+    height: 596.04px;
+    float: right;
+    margin-top: 115px;
+    margin-right: 133px;
+}
+main .b10 h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 85px;
+}
+main .b10 .catalog2{
+    display: flex;
+    
+}
+main .b10 .catalog2 .services{
+    border: 1px solid #4255B8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+main .b10 .catalog2 p{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+main .b10 .catalog2 .arrow2{
+    background: url(img/arrow1.png);
+    width: 14px;
+    height: 14px;
+}
+
+main .b11{
+    margin-top: 81px;
+    display: flex;
+    gap: 185px;
+    margin-bottom: 145px;
+}
+main .b11 .logonum .logo{
+    display: flex;
+    margin-bottom: 65px;
+}
+main .b11 .logonum .logoimage{
+    background: url(img/Group\ 1.png);
+    background-size: cover;
+    height: 36px;
+    width: 38px;
+}
+main .b11 .logonum .logo p{
+    font-size: 27px;
+    font-family: "TTCommons-Medium";
+    font-weight: bold;
+}
+main .b11 .logonum .phone .call{
+    background: url(img/Vector.png);
+    background-size: cover;
+    height: 18px;
+    width: 18px;
+    margin-left: 10px;
+}
+main .b11 .logonum .phone{
+    border: 1px #2A3EA4 solid;
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 202px;
+    background: none;
+    gap: 15px;
+    border-radius: 5px;
+}
+main .b11 .phone p{
+    font-size: 17px;
+    color: #2A3EA4;
+}
+main .b11 .catalog3 p a{
+    font-size: 20px;
+    color: #9799A3;
+    text-decoration: none;
+}
+main .b11 .num_e-mail p{
+    font-weight: bold;
+    font-size: 16px;
+}
+main .b11 .num_e-mail .number2{
+    font-family: "TTCommons-Medium";
+    font-size: 26px;
+}
+/*---main end---*/
+
+/*---footer start---*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #E9E4E4;
+    padding-top: 37px;
+}
+footer p{
+    font-size: 14px;
+    color: #9799A3;
+    
+}
+footer .VebRazrab{
+    display: flex;
+    gap: 28px;
+}
+footer .VebRazrab .logoVeb{
+    background: url(img/Group\ 71.png);
+    height: 20px;
+    width: 81px;
+}
+/*---footer end---*/
